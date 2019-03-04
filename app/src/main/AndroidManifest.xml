@@ -9,6 +9,18 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
+        <activity android:name=".addYogaInstructor">
+        </activity>
+        <activity android:name=".addClass">
+        </activity>
+        <activity android:name=".Spinning">
+        </activity>
+        <activity android:name=".HIIT">
+        </activity>
+        <activity android:name=".Yoga">
+        </activity>
+        <activity android:name=".FitnessclassLists">
+        </activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>

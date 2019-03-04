@@ -6,5 +6,79 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".Spinning">
+    <TextView
+            android:layout_width="258dp"
+            android:layout_height="52dp"
+            android:text="Spinning Class Details"
+            android:textColor="#2b5a8e"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.566"
+            app:layout_constraintVertical_bias="0.048"/>
+    <TextView
+            android:layout_width="326dp"
+            android:layout_height="41dp"
+            android:text="Please choose instructor"
+            android:textColor="#f29f06"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintVertical_bias="0.156"/>
+
+    <TextView
+            android:layout_width="326dp"
+            android:layout_height="26dp"
+            android:text="John"
+            android:textColor="#0A0A0A"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintVertical_bias="0.253"/>
+
+    <TextView
+            android:layout_width="326dp"
+            android:layout_height="22dp"
+            android:text="Sean"
+            android:textColor="#0A0A0A"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintVertical_bias="0.303"/>
+
+    <TextView
+            android:layout_width="326dp"
+            android:layout_height="22dp"
+            android:text="Peter"
+            android:textColor="#0A0A0A"
+            android:textSize="15sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.188"
+            app:layout_constraintVertical_bias="0.352"/>
+
+
+    <Button
+            android:id="@+id/addyogainstructorBtn"
+            android:layout_width="300dp"
+            android:layout_height="69dp"
+            android:text="Add Yoga Instructor"
+            android:textSize="18sp"
+            android:textColor="#2b5a8e"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" app:layout_constraintHorizontal_bias="0.495"
+            android:layout_marginBottom="116dp"/>
 
 </android.support.constraint.ConstraintLayout>

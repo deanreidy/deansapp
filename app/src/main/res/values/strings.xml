@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">DeansApp</string>
+    <string name="button_chooseclassBtn">Choose Fitness Class</string>
+    <string name="button_yogaBtn">Yoga</string>
+    <string name="button_hiitBtn">HIIT</string>
+    <string name="button_spinningBtn">Spinning</string>
+    <string name="button_addfitnessclassBtn">Add Fitness Class</string>
+    <string name="button_addyogainstructorBtn">Add Yoga Instructor</string>
+
+
+
+
+
+
 </resources>
